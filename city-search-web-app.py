@@ -104,11 +104,11 @@ st.info('Citysearch helps you find local businesses in your city and neighborhoo
 
 box1, box2, box3 = st.columns(3)
 
-popular_cities = box1.radio(
+popular_cities = box3.radio(
     "Popular Cities",
     ('Los Angeles, CA', 'San Francisco, CA', 'Atlanta, GA', 'Chicago, IL', 
     'Boston, MA', 'New York City, NY', 'Portland, OR', 'Philadelphia, PA','Austin, TX', 'Houston, TX', 'Seattle, WA'))
-popular_category = box3.radio(
+popular_category = box1.radio(
     'Popular Categories',
     ('Appliance Repair', 'HVAC', 'Restaurants', 'Automotive Repair', 'Hotels', 'Self-Storage','Dentists', 'Movie Theaters', 'Shopping',
     'Electricians', 'Night Life', 'Spa & Beauty', 'General Contractors', 'Plumbers', 'Veterinarians'
