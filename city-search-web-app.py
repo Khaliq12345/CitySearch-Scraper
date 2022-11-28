@@ -101,6 +101,7 @@ def scrape():
 
 st.title('CITYSEARCH.COM SCRAPER 🏙️')
 st.info('Citysearch helps you find local businesses in your city and neighborhood.')
+st.caption('Fields to be scraped are: Name, Address, Phone, Rating, Reviews Count and Category')
 
 box1, box2, box3 = st.columns(3)
 
