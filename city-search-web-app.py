@@ -4,6 +4,16 @@ from latest_user_agents import get_random_user_agent
 import streamlit as st
 ua = get_random_user_agent()
 
+st.set_page_config(page_title= 'CitySearch.com Scraper', page_icon=":man:")
+hide_menu = """
+<style>
+#MainMenu {
+    visibility:hidden;}
+footer {
+    visibility:hidden;}
+</style>
+"""
+st.markdown(hide_menu, unsafe_allow_html=True)
 
 def scrape():
     item_list = []
