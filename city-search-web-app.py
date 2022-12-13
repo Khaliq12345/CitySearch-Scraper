@@ -13,7 +13,7 @@ footer {
     visibility:hidden;}
 </style>
 """
-st.markdown(hide_menu, unsafe_allow_html=True)
+#st.markdown(hide_menu, unsafe_allow_html=True)
 
 def scrape():
     item_list = []
